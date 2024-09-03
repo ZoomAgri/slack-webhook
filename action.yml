@@ -1,5 +1,10 @@
 name: send-pretty-message
-description: send pretty slack message
+description: Send pretty Slack message
+author: 'zoomagri'
+branding:
+  icon: 'message-circle'
+  color: 'green'
+
 inputs:
   message:
     description: 'message'
