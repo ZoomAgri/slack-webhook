@@ -1,4 +1,4 @@
-name: send-pretty-slack-message
+name: send-pretty-message
 description: send pretty slack message
 inputs:
   message:
