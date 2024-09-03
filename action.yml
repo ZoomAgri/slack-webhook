@@ -28,7 +28,7 @@ runs:
         echo DATE_TIME=$(date +"%F %H:%M") >> $GITHUB_ENV
 
     - name: send json to slack
-      uses: slackapi/slack-github-action@v1.18.0
+      uses: slackapi/slack-github-action@v1
       with:
         payload: |
           {
